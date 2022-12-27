@@ -25,12 +25,17 @@
         <language tag="en-GB">en-GB/en-GB.plg_cck_field_live_user_ip.ini</language>
         <language tag="en-GB">en-GB/en-GB.plg_cck_field_live_user_ip.sys.ini</language>
     </languages>
-
+    <changelogurl>https://www.zhulinia.ru/updates/plg_cck_field_live_user_ip_cl.xml</changelogurl>
+    <updateservers>
+        <server type="extension" name="Live Plugin User IP" priority="1">
+            https://www.zhulinia.ru/updates/plg_cck_field_live_user_ip.xml
+        </server>
+    </updateservers>
     <config>
         <fields name="params" addfieldpath="/libraries/cck/construction/field">
             <fieldset name="basic">
                 <field name="" type="spacer" hr="false" />
-            </fieldset>
+            </fieldset>Live User IP Plugin
 
             <fieldset name="advanced">
                 <field name="group" type="text" default="PLG_CCK_FIELD_LIVE_GROUP_USER" label="LIB_CCK_GROUP_LABEL" size="60" description="LIB_CCK_FIELD_LIVE_GROUP_DESC" />
